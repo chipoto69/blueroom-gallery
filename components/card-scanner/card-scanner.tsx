@@ -1474,21 +1474,21 @@ export function CardScanner() {
 
         .gallery-logo {
           width: auto;
-          height: 60px;
+          height: 35px;
           margin: 0;
           padding: 0;
           filter: brightness(0) invert(1);
-          opacity: 0.95;
+          opacity: 0.85;
         }
 
         .gallery-subtitle {
           font-family: var(--font-roboto), 'Roboto', sans-serif;
-          font-size: 0.9rem;
+          font-size: 1.1rem;
           font-weight: 700;
-          letter-spacing: 0.1em;
+          letter-spacing: 0.12em;
           color: white;
-          margin-top: 0.5rem;
-          opacity: 0.9;
+          margin-top: 0.75rem;
+          opacity: 1;
         }
 
         /* Footer styles */
@@ -1547,11 +1547,12 @@ export function CardScanner() {
         /* Mobile responsive */
         @media (max-width: 768px) {
           .gallery-logo {
-            height: 45px;
+            height: 28px;
           }
 
           .gallery-subtitle {
-            font-size: 0.7rem;
+            font-size: 0.85rem;
+            margin-top: 0.6rem;
           }
 
           .footer-text {
