@@ -1473,14 +1473,12 @@ export function CardScanner() {
         }
 
         .gallery-logo {
-          font-family: 'Arial', sans-serif;
-          font-size: 2.5rem;
-          font-weight: 900;
-          letter-spacing: 0.05em;
-          color: white;
+          width: auto;
+          height: 60px;
           margin: 0;
           padding: 0;
-          line-height: 1;
+          filter: brightness(0) invert(1);
+          opacity: 0.95;
         }
 
         .gallery-subtitle {
@@ -1549,7 +1547,7 @@ export function CardScanner() {
         /* Mobile responsive */
         @media (max-width: 768px) {
           .gallery-logo {
-            font-size: 1.8rem;
+            height: 45px;
           }
 
           .gallery-subtitle {
@@ -1586,7 +1584,7 @@ export function CardScanner() {
       <div className="card-scanner-container" ref={containerRef}>
         {/* Header */}
         <div className="gallery-header">
-          <h1 className="gallery-logo">SORRYWECAN</h1>
+          <img src="/sorrywecan-logo.png" alt="SORRYWECAN" className="gallery-logo" />
           <p className="gallery-subtitle">BLUEROO1M - SWC x NBDY</p>
         </div>
 
