@@ -8,7 +8,7 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: 'BlueRoom Gallery',
-  description: 'Interactive gallery showcase with stunning visual effects and seamless scanning technology',
+  description: 'BLUER001M Gallery - Stay tuned for #002!',
   keywords: ['gallery', 'photography', 'art', 'interactive', 'visual effects'],
   authors: [{ name: 'BlueRoom' }],
   creator: 'BlueRoom',
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://blueroom.live'),
   openGraph: {
     title: 'BlueRoom Gallery',
-    description: 'Interactive gallery showcase with stunning visual effects and seamless scanning technology',
+    description: 'BLUER001M Gallery - Stay tuned for #002!',
     url: 'https://blueroom.live',
     siteName: 'BlueRoom Gallery',
     images: [
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'BlueRoom Gallery',
-    description: 'Interactive gallery showcase with stunning visual effects and seamless scanning technology',
+    description: 'BLUER001M Gallery - Stay tuned for #002!',
     images: ['/gallery/image00001.jpg'],
     creator: '@blueroom',
   },
